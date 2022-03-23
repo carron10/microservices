@@ -17,7 +17,7 @@ public class ChatsflyServiceOneApplication {
 
     @RequestMapping("/")
     String test() {
-        return "Client 1";
+        return "Client 4";
     }
     @RequestMapping("/hello")
     String test1() {
