@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
+@EnableDiscoveryClient
+@EnableAdminServer
 public class ChatsflyServiceOneApplication {
 
     public static void main(String[] args) {
